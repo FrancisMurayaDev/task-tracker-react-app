@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import "./todo.css";
+import "./Todo.css";
 import TodoItems from "./TodoItems";
 
 const Todo = () => {
