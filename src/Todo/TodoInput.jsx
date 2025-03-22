@@ -32,7 +32,7 @@ const TodoInput = () => {
       completed: false,
     });
     setTaskTitle("");
-  setTaskDescription("");
+    setTaskDescription("");
   };
 
   return (

@@ -11,7 +11,7 @@ const tasksStore = (set) => ({
 
   // addTask: (task) => {
   //   set(() => {
-  //     return { tasks: [task] }; 
+  //     return { tasks: [task] };
   //   });
   // },
 

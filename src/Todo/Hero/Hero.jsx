@@ -11,7 +11,7 @@ const Hero = () => {
   });
   return (
     <section className="hero">
-      <h3>Good {now()}  User. Welcome to Francis Task App</h3>
+      <h3>Good {now()} User. Welcome to Francis Task App</h3>
       <h2>You have {incomplete} tasks left today.</h2>
       <TodoInput />
     </section>

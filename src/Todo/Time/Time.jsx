@@ -19,14 +19,11 @@ const Time = () => {
   }, []);
 
   return (
-    <div className="time-container"> 
-    <p className="time-text">The Current Time is: </p>
-    <div className="time">{time}</div>
+    <div className="time-container">
+      <p className="time-text">The Current Time is: </p>
+      <div className="time">{time}</div>
     </div>
-   
   );
-  
-     
 };
 
 export default Time;
