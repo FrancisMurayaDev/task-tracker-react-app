@@ -2,7 +2,7 @@
   min-height: 70vh;
   background:
     linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.3)),
-    url(../assets/bg.jpg);
+    url(../../assets/bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
