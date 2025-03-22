@@ -1,5 +1,5 @@
 import "./assets/globals.css";
-import Todo from "./Todo/Todo";
+import Todo from "./Todo/Todo/Todo";
 
 function App() {
   return (

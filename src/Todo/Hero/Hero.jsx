@@ -1,6 +1,6 @@
-import TodoInput from "./TodoInput";
-import useTasksStore from "../store/taskStore";
-import now from "../utils/now";
+import TodoInput from "../TodoInput";
+import useTasksStore from "../../store/taskStore";
+import now from "../../utils/now";
 
 const Hero = () => {
   const tasks = useTasksStore((state) => state.tasks);
@@ -10,7 +10,7 @@ const Hero = () => {
   });
   return (
     <section className="hero">
-      <h3>Good {now()} dennis</h3>
+      <h3>Good {now()}  User</h3>
       <h2>You have {incomplete} tasks left today</h2>
       <TodoInput />
     </section>

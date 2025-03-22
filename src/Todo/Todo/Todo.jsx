@@ -1,6 +1,6 @@
-import Hero from "./Hero";
+import Hero from "../Hero/Hero";
 import "./Todo.css";
-import TodoItems from "./TodoItems";
+import TodoItems from "../TodoItems";
 
 const Todo = () => {
   return (
