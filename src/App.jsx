@@ -1,7 +1,12 @@
-import "./App.css";
+import "./assets/globals.css";
+import Todo from "./Todo/Todo";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Todo />
+    </>
+  );
 }
 
 export default App;

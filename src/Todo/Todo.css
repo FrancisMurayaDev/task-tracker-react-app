@@ -1,6 +1,7 @@
 .hero {
   min-height: 70vh;
-  background: linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.3)),
+  background:
+    linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.3)),
     url(../assets/bg.jpg);
   background-position: center;
   background-size: cover;
@@ -20,11 +21,11 @@ h2 {
 }
 
 .hero h3 {
-    font-size: 3rem;
-    background-color: #007bff;
-    padding: .5rem;
-    border-radius: 8px;
-    text-transform: capitalize;
+  font-size: 3rem;
+  background-color: #007bff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-transform: capitalize;
 }
 
 .hero h2 {
