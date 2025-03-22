@@ -31,6 +31,8 @@ const TodoInput = () => {
       taskDescription: taskDescription,
       completed: false,
     });
+    setTaskTitle("");
+  setTaskDescription("");
   };
 
   return (
@@ -40,10 +42,12 @@ const TodoInput = () => {
         placeholder="enter task title"
         className="todo-text-input"
         ref={inputRef}
+        value={taskTitle}
         onChange={handleChangeTaskTitle}
       />
       <textarea
         placeholder="enter todo description"
+        value={taskDescription}
         onChange={handleChangeTaskDescription}
       ></textarea>
       <button className="submit-btn" onClick={handleAddTask}>

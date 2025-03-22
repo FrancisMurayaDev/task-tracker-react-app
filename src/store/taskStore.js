@@ -9,6 +9,12 @@ const tasksStore = (set) => ({
     });
   },
 
+  // addTask: (task) => {
+  //   set(() => {
+  //     return { tasks: [task] }; 
+  //   });
+  // },
+
   completeTask: (taskId) => {
     set((state) => {
       const updatedTasks = state.tasks.map((currentTask) => {
